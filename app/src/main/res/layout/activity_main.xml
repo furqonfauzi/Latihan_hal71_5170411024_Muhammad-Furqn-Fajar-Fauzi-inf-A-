@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="438dp"
+        android:layout_height="745dp"
+        android:background="#638D98D5"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            app:srcCompat="@mipmap/uty" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Universitas Teknologi Yogyakarta"
+            android:textColor="#DF000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nim"
+            android:inputType="textShortMessage|number" />
+
+        <EditText
+            android:id="@+id/nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nilai Anda"
+            android:inputType="textShortMessage|number" />
+
+        <Button
+            android:id="@+id/Btn_pro"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#4CAF50"
+            android:text="Button"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
